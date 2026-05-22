@@ -14,7 +14,7 @@ End-to-end connectivity testing
 
 The project demonstrates practical implementation of enterprise networking concepts and routing interoperability.
 
-⚙️ Technologies & Protocols Used
+1. Technologies & Protocols Used
 Cisco Packet Tracer
 OSPF
 EIGRP
@@ -28,7 +28,7 @@ VLSM Subnetting
 🌐 Network Features
 ✅ Dynamic Routing
 
-Implemented and verified:
+2. Implemented and verified:
 
 OSPF routing
 EIGRP routing
@@ -36,7 +36,7 @@ RIP routing
 
 with proper route propagation between areas.
 
-✅ Route Redistribution
+3. Route Redistribution
 
 Configured redistribution between:
 
@@ -44,15 +44,15 @@ OSPF → EIGRP → RIP
 
 allowing communication between different routing domains.
 
-✅ DHCP Configuration
+3. DHCP Configuration
 
 DHCP pools were configured for multiple networks using dedicated servers for automatic IP assignment and gateway configuration.
 
-✅ NAT Implementation
+4. NAT Implementation
 
 NAT mapping and translation were configured to simulate internal-to-external communication.
 
-✅ ACL Security
+5. ACL Security
 
 Access Control Lists were applied to:
 
@@ -61,11 +61,11 @@ Allow permitted devices to access services
 
 demonstrating selective traffic filtering.
 
-✅ Email & DNS Services
+6. Email & DNS Services
 
 SMTP and DNS services were configured and verified through successful email transmission between hosts.
 
-✅ Connectivity Verification
+7. Connectivity Verification
 
 Connectivity tests included:
 
@@ -76,16 +76,17 @@ Cross-network communication
 
 across OSPF, EIGRP, and RIP domains.
 
-🧠 Challenges Faced
+8. Challenges Faced
 IP overlap issues during subnetting
 Complex redistribution configuration
 ACL rules blocking unintended hosts
 NAT implementation limitations across all hosts
 
-📂 Files Included
+9. Files Included
 23i-2089_A.pdf     → Final project report
 23i-2089_A.pkt     → Cisco Packet Tracer topology
-🚀 How to Run
+
+10. How to Run
 Open the .pkt file in Cisco Packet Tracer
 Start simulation or realtime mode
 Verify:
@@ -95,7 +96,8 @@ ACL behavior
 NAT translations
 Email communication
 Use ping/web browser/mail tools for testing
-📸 Project Modules
+
+12. Project Modules
 VLSM & IP Addressing
 OSPF Area Configuration
 EIGRP Routing
@@ -106,5 +108,5 @@ NAT
 ACL Security
 SMTP/DNS Services
 Connectivity Verification
-👨‍💻 Author
+
 
